@@ -753,10 +753,10 @@ footer {
     align-items: center;
     margin: auto; }
   .card {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     padding: 5px;
-    margin-left: 25%;
+    margin-left: 20%;
     object-fit: cover;
     display: flex;
     flex-direction: column;
@@ -765,8 +765,8 @@ footer {
   .video-serv {
     display: flex;
     align-items: center;
-    margin-top: 10px;
-    margin-left: 39%;
+    margin-top: 30px;
+    margin-left: 38%;
     border-radius: 10px;
     box-shadow: 0px 15px 25px rgba(118, 139, 123, 0.384);
     transition: 1.5s; }
