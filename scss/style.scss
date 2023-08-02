@@ -234,16 +234,22 @@ main{
  
  
      /*estilos de servicios mobile */
+     .main-servi{
+        justify-content: center;
+        align-items: center;
+
+     }
      .card {
-        width: 350px;
-        height: 350px;
+        width: 70%;
+        height: 70%;
         padding: 5px;
-        background-color:  #69686827; 
         margin-left: 15%;
+        background-color:  #69686827; 
         color: $color-letra;
         margin-bottom: 50px;
         object-fit: cover;
         display: flex;
+        justify-content: center;
         flex-direction: column;
         align-items: center;  
         box-shadow: 0px 15px 25px rgba(118, 139, 123, 0.384);
@@ -295,7 +301,10 @@ main{
         display: grid;
         object-fit: contain;
         padding: 20px;
+        width: 90%;
+        height: 90%;
         margin: 30px;
+        margin-left: 5%;
         box-shadow:  0px 15px 25px rgba(56, 75, 60, 0.384);
         transition: 1s;
         &:hover {
@@ -326,11 +335,11 @@ form{
     color: rgb(243, 235, 235);
     background-color: #fff0f017;
     padding: 5px;
-    width: 300px;
-    height: 400px;
+    width: 75%;
+    height: 100%;
     gap: 5px;
     margin-top: 10%;
-    margin-left: 20%;
+    margin-left: 12%;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0px 15px 25px rgba(19, 141, 47, 0.815);
@@ -678,15 +687,19 @@ main{
      grid-template-columns: repeat(1, 1fr);
      margin: 4rem, 2rem, 4rem, 2rem;
      gap: 5px;
+     align-items: center;
 
      
  }
 
  .vid-mod{
  align-items: center;
+ width: 70%;
+ height: 70%;
  display: flexbox;
  padding: 20px;
  margin: 50px;
+ margin-left: 12%;
  box-shadow:  0px 15px 25px rgba(56, 75, 60, 0.384);
  transition: 1s;
  &:hover {
@@ -1108,25 +1121,33 @@ main{
     grid-template-columns: repeat(2, 1fr );
     grid-template-rows: repeat(3, 23% 33% 33% );
     margin: 4rem, 2rem, 4rem, 2rem;
-    justify-content: center;   
+    justify-content: center; 
+    width: 100%;
+    height: 100%;  
 }
 
 .vid-mod{
    display: grid;
    object-fit: contain;
+   margin-top: 20px;
+   width: 80%;
+   height: 80%;
+   padding: 30px;
+   margin-left: 10%;
    box-shadow:  0px 15px 25px rgba(56, 75, 60, 0.384);
    transition: 1s;
    &:hover {
- 
        transition: 0.5s;
-       padding: 10px;
+       padding: 20px;
        background-image: linear-gradient(#351b02,#ad8d0b,#997c09,#755f06, ) ;
     
      }
 }
 .mod-title{
     grid-column: span 2;
-    margin-bottom: 10px;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 50px;
     box-shadow:   0px 15px 25px rgba(56, 75, 60, 0.384);
 }
  
@@ -1139,6 +1160,7 @@ main{
      justify-content: center;
      background-color: rgb(0, 0, 0);
      align-items: center;
+
  }
  
  .img-contac {
